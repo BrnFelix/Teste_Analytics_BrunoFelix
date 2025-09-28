@@ -108,12 +108,12 @@ Tabela no terminal:
 ## 📈 Gráficos gerados:
 
 Linha de Tendência de Venda Mensal
-<img width="900" height="700" alt="Gráfico de Tendência de Vendas Mensais" src="https://github.com/user-attachments/assets/faa124c7-e591-46b7-9e64-6d843fed4df7" /> <br>
+<img width="600" height="700" alt="Gráfico de Tendência de Vendas Mensais" src="https://github.com/user-attachments/assets/faa124c7-e591-46b7-9e64-6d843fed4df7" /> <br>
 
 Lucro por Categoria
 
-<img width="900" height="700" alt="Gráfico de Total de Vendas em Dinheiro Por Categoria" src="https://github.com/user-attachments/assets/c95e0380-347f-48d6-a953-cad21605f670" /> <br>
+<img width="600" height="700" alt="Gráfico de Total de Vendas em Dinheiro Por Categoria" src="https://github.com/user-attachments/assets/c95e0380-347f-48d6-a953-cad21605f670" /> <br>
 
 
 Percentual Vendido por Categoria
-<img width="1366" height="768" alt="Participação dos Pratos nas Vendas Totais" src="https://github.com/user-attachments/assets/c4a912dd-bbfa-43b0-baf8-37f6ef235e18" />
+<img width="600" height="700" alt="Participação dos Pratos nas Vendas Totais" src="https://github.com/user-attachments/assets/c4a912dd-bbfa-43b0-baf8-37f6ef235e18" />
