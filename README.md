@@ -59,19 +59,25 @@ data_first/
 ## ❓ Como executar 
 
 1. Instale todas as dependências pendentes pelo terminal rodando o seguinte comando:
+```
 pip install -r requirements.txt
-
+```
 2. Gere os gráficos
+```
 python graficos.py
+```
 
 3. Exiba a tabela de vendas no terminal
+```
 python tabela.py
-
+```
 
 ## ✅ Testes
 
 Para rodar os testes unitários:
+```
 pytest tests/
+```
 
 ## 📦 Controle de Qualidade
 
@@ -83,7 +89,9 @@ isort para organização de imports;
 pre-commit para aplicar tudo antes de cada commit.
 
 Para ativar:
+```
 pre-commit install
+```
 
 ## 📈 Exemplos de Saída
 
