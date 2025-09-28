@@ -6,3 +6,6 @@ Os meses de junho e dezembro apresentam picos de vendas. Isso pode estar relacio
 📉 Queda acentuada em meses intermediários
 
 Há uma queda visível em setembro e outubro, sugerindo menor fluxo de clientes ou sazonalidade. Pode ser um bom momento para promoções ou eventos especiais para atrair público.
+
+
+Controle de qualidade	pre-commit, flake8	Padronização automática do código

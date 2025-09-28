@@ -1,5 +1,7 @@
-from vendas_analytcs.simulador import gerar_dados
 import pandas as pd
+
+from vendas_analytics.simulador import gerar_dados
+
 
 def test_gerar_dados():
     df = gerar_dados()
