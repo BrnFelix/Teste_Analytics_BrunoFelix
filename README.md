@@ -26,32 +26,35 @@ Exibição tabular no terminal.
 ## 🗂 Estrutura do Projeto
 
 data_first/
-├── pytest.ini                    # Configuração de testes
+├── pytest.ini                      # Configuração de testes
 ├── data/
-│   ├── data_clean.csv            # Dataset limpo gerado
-│   └── relatorio_vendas.pdf      # Relatório PDF gerado
+│   ├── data_clean.csv              # Dataset limpo gerado
+│   └── relatorio_vendas.pdf        # Relatório PDF gerado
 ├── images/
-│   ├── Gráfico de Tendência de Vendas Mensais.png
-│   ├── Gráfico de Total de Vendas em Dinheiro Por Categoria.png
-│   ├── Participação dos Pratos nas Vendas Totais.png
+│   ├── grafico_tendencia_mensal.png
+│   ├── grafico_vendas_por_categoria.png
+│   ├── grafico_participacao_pratos.png
 ├── tests/
 │   ├── test_simulador.py
 │   ├── test_limpeza.py
 │   └── test_analise.py
 ├── vendas_analytcs/
-│   ├── __pycache__
+│   ├── __pycache__/
 │   ├── __init__.py
-│   ├── analise_exploratoria.py  # Gráficos e análises visuais
-│   ├── limpeza.py                # Tratamento de dados
-│   ├── simulador.py              # Geração de dados simulados
-├── pre-commit-config.yaml
-├── graficos.py                   # Executa os gráficos
-├── pytest.ini
-├── README.md                     # Documentação do projeto
-├── requirements.txt              # Dependências
-└── tabela.py                     # Exibe a tabela de vendas no terminal
+│   ├── analise_exploratoria.py    # Gráficos e análises visuais
+│   ├── limpeza.py                  # Tratamento de dados
+│   ├── simulador.py                # Geração de dados simulados
+├── templates/
+│   └── relatorio.html              # Template HTML para gerar PDF
+├── graficos.py                     # Executa os gráficos
+├── tabela.py                       # Exibe a tabela de vendas no terminal
+├── gerar_relatorio_pdf.py          # Gera o relatório em PDF
+├── pre-commit-config.yaml          # Controle de qualidade
+├── requirements.txt                # Dependências
+└── README.md                       # Documentação do projeto
 
-## Como executar 
+
+## ❓ Como executar 
 
 1. Instale todas as dependências pendentes pelo terminal rodando o seguinte comando:
 pip install -r requirements.txt
