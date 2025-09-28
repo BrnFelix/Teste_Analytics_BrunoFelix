@@ -107,6 +107,8 @@ Tabela no terminal:
 
 ## 📈 Gráficos gerados:
 
-Linha de tendência mensal;
+Linha de tendência mensal
+<img width="1366" height="768" alt="Gráfico de Tendência de Vendas Mensais" src="https://github.com/user-attachments/assets/faa124c7-e591-46b7-9e64-6d843fed4df7" />
+
 Barras por categoria;
 Pizza de participação por prato.
