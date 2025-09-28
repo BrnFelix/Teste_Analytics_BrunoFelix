@@ -25,6 +25,7 @@ Exibição tabular no terminal.
 
 ## 🗂 Estrutura do Projeto
 
+```
 data_first/
 ├── pytest.ini                      # Configuração de testes
 ├── data/
@@ -52,6 +53,9 @@ data_first/
 ├── pre-commit-config.yaml          # Controle de qualidade
 ├── requirements.txt                # Dependências
 └── README.md                       # Documentação do projeto
+```
+
+
 
 
 ## ❓ Como executar 
