@@ -4,7 +4,7 @@ import pandas as pd
 df_limpo = pd.read_csv("data/data_clean.csv")
 
 # Recalculandoo Total_Vendas
-df_limpo["Total_Vendas"] = df_limpo["Quantidade"] * df_limpo["Preço"]
+df_limpo["Total_Vendas"] = df_limpo["Quantidade"] * df_limpo["Preco"]
 
 # Total de vendas por prato
 vendas_por_prato = (

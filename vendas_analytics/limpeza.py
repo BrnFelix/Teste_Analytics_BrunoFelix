@@ -6,6 +6,6 @@ def limpar_dados(df):
     df = df.drop_duplicates()
     df["Data"] = pd.to_datetime(df["Data"])
     df["Quantidade"] = df["Quantidade"].astype(int)
-    df["Preço"] = df["Preço"].astype(float)
-    df["Total_Vendas"] = df["Quantidade"] * df["Preço"]
+    df["Preco"] = df["Preco"].astype(float)
+    df["Total_Vendas"] = df["Quantidade"] * df["Preco"]
     return df

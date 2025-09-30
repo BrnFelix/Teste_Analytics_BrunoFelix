@@ -2,10 +2,18 @@ pandas
 numpy
 matplotlib
 seaborn
+pytest
+
+# Conexão com SQL Server
+pyodbc
+sqlalchemy
+
+# Qualidade de código
 flake8
 black
 isort
 pre-commit
+
 
 
 

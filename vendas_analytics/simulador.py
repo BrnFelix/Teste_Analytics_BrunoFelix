@@ -44,12 +44,12 @@ def gerar_dados():
         dados.append([i, data, prato, categoria, quantidade, preco])
 
     df = pd.DataFrame(
-        dados, columns=["ID", "Data", "Prato", "Categoria", "Quantidade", "Preço"]
+        dados, columns=["ID", "Data", "Prato", "Categoria", "Quantidade", "Preco"]
     )
 
     # Inserindo valores nulos e duplicatas
     df.loc[5, "Prato"] = np.nan
-    df.loc[10, "Preço"] = np.nan
+    df.loc[10, "Preco"] = np.nan
     df.loc[13, "Categoria"] = np.nan
     df.loc[20, "Quantidade"] = np.nan
     df.loc[29, "Data"] = np.nan

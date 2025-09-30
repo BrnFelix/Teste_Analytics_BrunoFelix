@@ -16,6 +16,8 @@ Inserção proposital de dados nulos e duplicados para fins de limpeza;
 Tratamento de dados: remoção de nulos, duplicatas e conversão de tipos;
 Cálculo do total de vendas por produto;
 Identificação do produto mais lucrativo;
+Persistência dos dados em banco SQL Server;
+Execução de consultas analíticas via SQLAlchemy.
 
 Visualizações gráficas:
 Tendência de vendas mensais;
@@ -35,6 +37,9 @@ data_first/
 │   ├── Gráfico de Tendência de Vendas Mensais.png
 │   ├── Gráfico de Total de Vendas em Dinheiro Por Categoria.png
 │   ├── Participação dos Pratos nas Vendas Totais.png
+├── sql
+│   ├──consultas_analise.sql # Consultas básicas
+│   ├──criar_tabela_sql # Cria a tabela no SQL
 ├── tests/
 │   ├── test_simulador.py
 │   ├── test_limpeza.py
@@ -46,10 +51,14 @@ data_first/
 │   ├── limpeza.py                # Tratamento de dados
 │   ├── simulador.py              # Geração de dados simulados
 ├── pre-commit-config.yaml
+├── consulta_sql.py               # Exibe as condultas do consultas_analise_sql
+├── database.py                   # Conexão do BD com Python
 ├── graficos.py                   # Executa os gráficos
 ├── pytest.ini
 ├── README.md                     # Documentação do projeto
 ├── requirements.txt              # Dependências
+├── run_sql.py                    # Roda o comando do SQL em conjunto
+├── setup.cfg                     # Configurações do flake8
 └── tabela.py                     # Exibe a tabela de vendas no terminal
 ```
 
@@ -70,7 +79,14 @@ python graficos.py
 3. Exiba a tabela de vendas no terminal
 ```
 python tabela.py
+<<<<<<< HEAD
 ```
+=======
+
+4. Execute as consultas SQL e visualize os resultados:
+python run_sql.py
+
+>>>>>>> 3030122 (Corrigir padrão flake8)
 
 ## ✅ Testes
 

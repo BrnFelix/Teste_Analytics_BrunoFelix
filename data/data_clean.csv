@@ -1,4 +1,4 @@
-ID,Data,Prato,Categoria,Quantidade,Preço,Total_Vendas
+ID,Data,Prato,Categoria,Quantidade,Preco,Total_Vendas
 1,2023-05-06,Hambúrguer,Prato Principal,1,91.57,91.57
 2,2023-12-13,Salada Grega,Entrada,3,91.01,273.03000000000003
 3,2023-01-16,Hambúrguer,Prato Principal,10,56.41,564.0999999999999
