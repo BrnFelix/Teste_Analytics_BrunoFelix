@@ -1,5 +1,5 @@
-from vendas_analytics.limpeza import limpar_dados
-from vendas_analytics.simulador import gerar_dados
+from src.limpeza import limpar_dados
+from src.simulador import gerar_dados
 
 
 def test_limpar_dados():

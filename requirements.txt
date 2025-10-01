@@ -8,11 +8,6 @@ pytest
 pyodbc
 sqlalchemy
 
-# Qualidade de código
-flake8
-black
-isort
-pre-commit
 
 
 

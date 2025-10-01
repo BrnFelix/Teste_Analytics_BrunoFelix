@@ -1,6 +1,6 @@
-from vendas_analytics.analise_exploratoria import AnaliseExploratoria
-from vendas_analytics.limpeza import limpar_dados
-from vendas_analytics.simulador import gerar_dados
+from src.analise_exploratoria import AnaliseExploratoria
+from src.limpeza import limpar_dados
+from src.simulador import gerar_dados
 
 # Gerar e limpar dados
 df = gerar_dados()

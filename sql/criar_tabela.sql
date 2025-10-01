@@ -7,5 +7,6 @@ CREATE TABLE vendas (
     Prato VARCHAR(100),
     Categoria VARCHAR(50),
     Quantidade INT,
-    Preco FLOAT
+    Preco FLOAT,
+    Total_Vendas FLOAT
 );

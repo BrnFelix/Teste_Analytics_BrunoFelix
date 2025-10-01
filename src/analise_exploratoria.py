@@ -11,7 +11,7 @@ class AnaliseExploratoria:
         vendas_mensais = self.df.groupby("AnoMes")["Total_Vendas"].sum()
         plt.figure(figsize=(12, 6))
         vendas_mensais.plot(kind="line", marker="o", color="teal")
-        plt.title("📊 Tendência de Vendas Mensais (2023)")
+        plt.title("Tendência de Vendas Mensais (2023)")
         plt.xlabel("Mês")
         plt.ylabel("Total de Vendas (R$)")
         plt.grid(True)
@@ -22,16 +22,21 @@ class AnaliseExploratoria:
     def vendas_por_categoria(self):
         vendas_por_categoria = (
             self.df.groupby("Categoria")["Total_Vendas"].sum().sort_values()
-        )
+        ).reset_index()
+
         plt.figure(figsize=(10, 6))
         ax = sns.barplot(
-            x=vendas_por_categoria.values,
-            y=vendas_por_categoria.index,
+            data=vendas_por_categoria,
+            x="Total_Vendas",
+            y="Categoria",
+            hue="Categoria",
             palette="viridis",
+            dodge=False,
+            legend=False,
         )
-        for i, valor in enumerate(vendas_por_categoria.values):
+        for i, valor in enumerate(vendas_por_categoria["Total_Vendas"]):
             ax.text(valor + 5, i, f"R$ {valor:,.2f}", va="center", fontsize=10)
-        plt.title("💰 Vendas por Categoria")
+        plt.title("Vendas por Categoria")
         plt.xlabel("Total de Vendas (R$)")
         plt.ylabel("Categoria")
         plt.tight_layout()
@@ -47,6 +52,6 @@ class AnaliseExploratoria:
             startangle=140,
             colors=sns.color_palette("pastel"),
         )
-        plt.title("🍕 Participação dos Pratos nas Vendas")
+        plt.title("Participação dos Pratos nas Vendas")
         plt.axis("equal")
         plt.show()

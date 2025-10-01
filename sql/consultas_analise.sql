@@ -2,7 +2,7 @@
 SELECT 
     Prato AS Produto,
     Categoria,
-    SUM(Quantidade * Preco) AS Total_Vendas
+    SUM(Total_Vendas) AS Total_Vendas
 FROM 
     vendas
 GROUP BY 
@@ -13,7 +13,7 @@ ORDER BY
 -- Produtos que venderam menos em junho de 2023
 SELECT 
     Prato AS Produto,
-    SUM(Quantidade * Preco) AS Total_Vendas_Junho
+    SUM(Total_Vendas) AS Total_Vendas_Junho
 FROM 
     vendas
 WHERE 
@@ -26,7 +26,7 @@ ORDER BY
 -- Total de vendas por categoria
 SELECT 
     Categoria,
-    SUM(Quantidade * Preco) AS Total_Vendas
+    SUM(Total_Vendas) AS Total_Vendas
 FROM 
     vendas
 GROUP BY 
@@ -37,7 +37,7 @@ ORDER BY
 -- Tendência mensal de vendas
 SELECT 
     FORMAT(Data, 'yyyy-MM') AS Mes,
-    SUM(Quantidade * Preco) AS Total_Vendas
+    SUM(Total_Vendas) AS Total_Vendas
 FROM 
     vendas
 GROUP BY 

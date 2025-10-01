@@ -51,7 +51,7 @@ data_first/
 │   ├── limpeza.py                # Tratamento de dados
 │   ├── simulador.py              # Geração de dados simulados
 ├── pre-commit-config.yaml
-├── consulta_sql.py               # Exibe as condultas do consultas_analise_sql
+├── consulta_sql.py               # Exibe as consultas do consultas_analise_sql
 ├── database.py                   # Conexão do BD com Python
 ├── graficos.py                   # Executa os gráficos
 ├── pytest.ini
