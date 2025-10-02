@@ -237,3 +237,4 @@ Entradas e Bebidas → ficam em valores intermediários
 Esses indicadores ajudam a ter uma visão bem clara do restaurante: quais pratos vendem mais, quais trazem mais dinheiro, como o faturamento varia ao longo do tempo.
 No fim, esse tipo de análise é o que apoia decisões estratégicas, e ainda deixa os dados bem mais interessantes de olhar no Power BI. 
 
+<img width="800" height="500" alt="Dashboard Pronto" src="https://github.com/user-attachments/assets/78e2c056-9ed6-4b8b-a4ba-a92a99034146" />
