@@ -9,15 +9,19 @@ def inserir_dados(df):
     )
     cursor = conn.cursor()
 
-    # Executar script sql de criação da tabela
+    
+    cursor.execute("IF OBJECT_ID('vendas', 'U') IS NOT NULL TRUNCATE TABLE vendas;")
+    conn.commit()
+
+    # Executa script sql de criação da tabela
     with open("sql/criar_tabela.sql", "r", encoding="utf-8") as f:
         cursor.execute(f.read())
         conn.commit()
 
-    # Carregar CSV
+    # Carrega CSV
     df = pd.read_csv("data/data_clean.csv")
 
-    # Inserir dados
+    # Insere dados
     for _, row in df.iterrows():
         cursor.execute(
             """

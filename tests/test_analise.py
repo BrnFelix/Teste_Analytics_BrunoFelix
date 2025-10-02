@@ -1,5 +1,8 @@
-import pandas as pd
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
+import pandas as pd
 
 def test_vendas_por_prato():
     df = pd.read_csv("data/data_clean.csv")

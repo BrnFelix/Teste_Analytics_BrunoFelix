@@ -3,16 +3,16 @@ from sqlalchemy import create_engine
 
 
 def executar_consultas():
-    # Criar engine com SQLAlchemy
+    # Cria engine com SQLAlchemy
     engine = create_engine(
         "mssql+pyodbc://localhost/Analytics?driver=ODBC+Driver+17+for+SQL+Server"
     )
 
-    # Ler consultas do arquivo
+    # Le consultas do arquivo
     with open("sql/consultas_analise.sql", "r", encoding="utf-8") as f:
         queries = f.read().split(";")  # separa cada consulta
 
-    # Executar e exibir cada consulta
+    # Executa e exibe cada consulta
     for i, query in enumerate(queries):
         query = query.strip()
         if query:

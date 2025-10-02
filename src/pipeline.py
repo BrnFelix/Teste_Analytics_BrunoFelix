@@ -7,13 +7,11 @@ from src.limpeza import LimpezaDados
 from src.relatorio_terminal import RelatorioTerminal
 from src.simulador import SimuladorDados
 
-
 def executar_pipeline():
-    os.makedirs("data/processed", exist_ok=True)  # cria o diretório se não existir
 
     df = SimuladorDados().gerar_dados()
     df_limpo = LimpezaDados().limpar(df)
-    df_limpo.to_csv("data/processed/data_clean.csv", index=False, encoding="utf-8")
+    df_limpo.to_csv("data/data_clean.csv", index=False, encoding="utf-8")
     inserir_dados(df_limpo)
     RelatorioTerminal(df_limpo).imprimir_relatorio()
     analise = AnaliseExploratoria(df_limpo)
