@@ -107,82 +107,82 @@ Produto mais lucrativo: Hambúrguer com R$ 5,115.74 em vendas.
  
 Tendência mensal de vendas:
 
-Mes       Total_Vendas
-2023-01  R$ 3,586.35
-2023-02  R$ 2,383.13
-2023-03    R$ 376.74
-2023-04  R$ 1,457.76
-2023-05  R$ 1,526.94
-2023-06  R$ 1,559.89
-2023-07  R$ 1,556.62
-2023-08  R$ 2,967.12
-2023-09    R$ 415.54
-2023-10  R$ 4,912.64
-2023-11  R$ 3,692.96
-2023-12  R$ 2,747.46
+        Mes       Total_Vendas
+        2023-01  R$ 3,586.35
+        2023-02  R$ 2,383.13
+        2023-03    R$ 376.74
+        2023-04  R$ 1,457.76
+        2023-05  R$ 1,526.94
+        2023-06  R$ 1,559.89
+        2023-07  R$ 1,556.62
+        2023-08  R$ 2,967.12
+        2023-09    R$ 415.54
+        2023-10  R$ 4,912.64
+        2023-11  R$ 3,692.96
+        2023-12  R$ 2,747.46
 
 Variação de preço por prato:
 
-               min      max      Diferença
-Prato
-Feijoada     R$ 39.84 R$ 100.00  R$ 60.16
-Hambúrguer   R$ 38.06  R$ 98.00  R$ 59.94
-Lasanha      R$ 31.93  R$ 94.00  R$ 62.07
-Pizza        R$ 33.75 R$ 100.00  R$ 66.25
-Salada Grega R$ 22.26  R$ 51.00  R$ 28.74
-Suco Natural R$ 25.62  R$ 30.63   R$ 5.01
-Sushi        R$ 37.89 R$ 102.00  R$ 64.11
-Tiramisu     R$ 12.30  R$ 51.00  R$ 38.70
+                min      max      Diferença
+        Prato
+        Feijoada     R$ 39.84 R$ 100.00  R$ 60.16
+        Hambúrguer   R$ 38.06  R$ 98.00  R$ 59.94
+        Lasanha      R$ 31.93  R$ 94.00  R$ 62.07
+        Pizza        R$ 33.75 R$ 100.00  R$ 66.25
+        Salada Grega R$ 22.26  R$ 51.00  R$ 28.74
+        Suco Natural R$ 25.62  R$ 30.63   R$ 5.01
+        Sushi        R$ 37.89 R$ 102.00  R$ 64.11
+        Tiramisu     R$ 12.30  R$ 51.00  R$ 38.70
 
 Prato com maior variação de preço do início ao final do ano de 2023: Pizza (+R$ 66.25)
 
 Resultado da consulta 1 (Total de vendas por produto e categoria):
 
-        Produto        Categoria  Total_Vendas
-0    Hambúrguer  Prato Principal       5115.74
-1      Feijoada  Prato Principal       4810.32
-2         Sushi  Prato Principal       4308.37
-3         Pizza  Prato Principal       4211.96
-4       Lasanha  Prato Principal       3827.09
-5  Salada Grega          Entrada       2778.80
-6      Tiramisu        Sobremesa       1232.85
-7  Suco Natural           Bebida        898.02
+                Produto        Categoria  Total_Vendas
+        0    Hambúrguer  Prato Principal       5115.74
+        1      Feijoada  Prato Principal       4810.32
+        2         Sushi  Prato Principal       4308.37
+        3         Pizza  Prato Principal       4211.96
+        4       Lasanha  Prato Principal       3827.09
+        5  Salada Grega          Entrada       2778.80
+        6      Tiramisu        Sobremesa       1232.85
+        7  Suco Natural           Bebida        898.02
 
 
 Resultado da consulta 2  (Produtos que venderam menos em junho de 2023):
 
-      Produto           Total_Vendas_Junho
-0       Sushi              113.67
-1     Lasanha              182.65
-2       Pizza              236.25
-3    Feijoada              270.00
-4  Hambúrguer              757.32
+        Produto           Total_Vendas_Junho
+        0       Sushi              113.67
+        1     Lasanha              182.65
+        2       Pizza              236.25
+        3    Feijoada              270.00
+        4  Hambúrguer              757.32
 
 
 Resultado da consulta 3 (Total de vendas por categoria):
 
-         Categoria  Total_Vendas
-0  Prato Principal      22273.48
-1          Entrada       2778.80
-2        Sobremesa       1232.85
-3           Bebida        898.02
+                Categoria  Total_Vendas
+        0  Prato Principal      22273.48
+        1          Entrada       2778.80
+        2        Sobremesa       1232.85
+        3           Bebida        898.02
 
 
 Resultado da consulta 4 (Tendência mensal de vendas):
 
-        Mes  Total_Vendas
-0   2023-01       3586.35
-1   2023-02       2383.13
-2   2023-03        376.74
-3   2023-04       1457.76
-4   2023-05       1526.94
-5   2023-06       1559.89
-6   2023-07       1556.62
-7   2023-08       2967.12
-8   2023-09        415.54
-9   2023-10       4912.64
-10  2023-11       3692.96
-11  2023-12       2747.46
+                Mes  Total_Vendas
+        0   2023-01       3586.35
+        1   2023-02       2383.13
+        2   2023-03        376.74
+        3   2023-04       1457.76
+        4   2023-05       1526.94
+        5   2023-06       1559.89
+        6   2023-07       1556.62
+        7   2023-08       2967.12
+        8   2023-09        415.54
+        9   2023-10       4912.64
+        10  2023-11       3692.96
+        11  2023-12       2747.46
 
 ## 📈 Gráficos gerados:
 
@@ -237,4 +237,3 @@ Entradas e Bebidas → ficam em valores intermediários
 Esses indicadores ajudam a ter uma visão bem clara do restaurante: quais pratos vendem mais, quais trazem mais dinheiro, como o faturamento varia ao longo do tempo.
 No fim, esse tipo de análise é o que apoia decisões estratégicas, e ainda deixa os dados bem mais interessantes de olhar no Power BI. 
 
-(<PowerBI/Dashboard Pronto.png>)
