@@ -50,8 +50,7 @@ data_first/
 │   ├── consultas_analise.sql
 │   ├── criar_tabela.sql
 │   ├── database.py
-│   ├── graficos.py
-│   └── SQLQuery1.sql
+│   └── graficos.py
 ├── src/                            # Pasta responsável pelas principais tarefas
 │   ├── __pycache__
 │   ├── __init__.py
@@ -64,9 +63,11 @@ data_first/
 │   ├── __pycache__
 │   ├── test_analise.py
 │   ├── test_limpeza.py
-│   └── test_simulador.py          
+│   └── test_simulador.py     
+├── Apresentação.mp4               # Vídeo de apresentação dos dados 
 ├── main                          # Arquivo principal
 ├── README.md                     # Documentação do projeto
+├── relatorio_insights.pdf        # Relatório do projeto  
 └── requirements.txt              # Dependências
  
 ```
